@@ -5,8 +5,10 @@
 - Java
     - Identify  your processor architecture.
     
+    ```java
     # try in terminal
     uname -m
+    ```
     
     Output meanings:
     
@@ -28,7 +30,7 @@
 ## Key Files and Their Responsibilities
 
 - configs/config.yaml
-    - Stores file paths for input datasets and descriptions of the analyses.
+    - **Purpose**: Stores file paths for input datasets and descriptions of the analyses.
 - data/*
     - Contains all the source csv files.
 - results/*
@@ -46,13 +48,20 @@
 
 1-  **Clone the repository**:
 
+```java
 git clone https://github.com/vividmansi/car_crash_analysis.git
 cd car_crash_analysis
 
+```
+
 2- **Install dependencies**:
 
+```java
 pip install -r requirements.txt
+```
 
 3- **Run the project, here you go :)**
 
+```java
 spark-submit scripts/app.py
+```
