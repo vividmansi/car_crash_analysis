@@ -1,0 +1,29 @@
+input_data:
+  primary_person: "data/Primary_Person_use.csv"
+  charges: "data/Charges_use.csv"
+  endorsements: "data/Endorse_use.csv"
+  restrict: "data/Restrict_use.csv"
+  damages: "data/Damages_use.csv"
+  unit: "data/Units_use.csv"
+
+analysis:
+  crash_analysis_1:
+    description: "Find the number of crashes where males killed are greater than 2."
+  crash_analysis_2:
+    description: "Find how many two-wheelers are involved in crashes."
+  crash_analysis_3:
+    description: "Top 5 Vehicle Makes where the driver died and airbags didn’t deploy."
+  crash_analysis_4:
+    description: "Number of vehicles with drivers having valid licenses involved in hit and run."
+  crash_analysis_5:
+    description: "Find the state with the highest number of crashes where females were not involved."
+  crash_analysis_6:
+    description: "Get the 3rd to 5th top vehicle makes contributing to injuries including death."
+  crash_analysis_7:
+    description: "Determine the top ethnic user group for each vehicle body style."
+  crash_analysis_8:
+    description: "Find the top 5 ZIP codes with the highest number of crashes involving alcohol"
+  crash_analysis_9:
+    description: "Count distinct crashes where no property was damaged, damage level > 4, and car has insurance."
+  crash_analysis_10:
+    description: "Get the top 5 vehicle makes where drivers were charged with speeding- related offences, has licensed Drivers, used top 10 used vehicle colours and has car licensed with the Top 25 states with highest number of offences"
